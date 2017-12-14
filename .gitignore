@@ -1,3 +1,11 @@
+composer.lock
+/src/Locale/en
+!/src/Locale/en/.gitkeep
+/src/Locale/en_GB
+!/src/Locale/en_GB/.gitkeep
+/src/Locale/fr_FR
+!/src/Locale/fr_FR/.gitkeep
+
 # CakePHP specific files #
 ##########################
 /config/app.php
