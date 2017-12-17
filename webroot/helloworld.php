@@ -35,3 +35,5 @@ use Cake\Http\Server;
 
 $server = new Server(new Application(dirname(__DIR__) . '/config/helloworld'));
 $server->emit($server->run());
+
+// require phpbenchmarks stats.php here when needed
