@@ -206,4 +206,6 @@ return [
     'Session' => [
         'defaults' => 'php',
     ],
+    'Datasources' => [],
+    'Email' => []
 ];
