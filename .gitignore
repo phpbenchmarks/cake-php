@@ -10,8 +10,10 @@ composer.lock
 
 # CakePHP specific files #
 ##########################
-/config/app.php
-/config/.env
+/config/helloworld/app.php
+/config/helloworld/.env
+/config/rest/app.php
+/config/rest/.env
 /logs/*
 /tmp/*
 /vendor/*
