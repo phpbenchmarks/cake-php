@@ -5,6 +5,8 @@ composer.lock
 !/src/Locale/en_GB/.gitkeep
 /src/Locale/fr_FR
 !/src/Locale/fr_FR/.gitkeep
+!/tmp/.gitkeep
+!/logs/.gitkeep
 
 # CakePHP specific files #
 ##########################
