@@ -8,7 +8,7 @@
         "cakephp/migrations": "^1.0",
         "cakephp/plugin-installer": "^1.0",
         "josegonzalez/dotenv": "2.*",
-        "phpbenchmarks/cake-php": "1.0.0"
+        "phpbenchmarks/cake-php": "1.0.1"
     },
     "suggest": {
         "markstory/asset_compress": "An asset compression plugin which provides file concatenation and a flexible filter system for preprocessing and minification.",
