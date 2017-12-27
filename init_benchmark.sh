@@ -30,7 +30,7 @@ function init() {
     ln -s "$langFrFr" src/Locale/fr_FR
 
     clearCache
-    composer install --no-dev --optimize-autoloader
+    composer install --no-dev --classmap-authoritative
     clearCache
 
     return 0;

@@ -16,7 +16,7 @@
  */
 
 // Check platform requirements
-require dirname(__DIR__) . '/config/rest/requirements.php';
+require dirname(__DIR__) . '/config/requirements.php';
 
 // For built-in server
 if (php_sapi_name() === 'cli-server') {
@@ -33,7 +33,7 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 use App\Application;
 use Cake\Http\Server;
 
-$server = new Server(new Application(dirname(__DIR__) . '/config/rest'));
+$server = new Server(new Application(dirname(__DIR__) . '/config'));
 $server->emit($server->run());
 
 // require phpbenchmarks stats.php here when needed

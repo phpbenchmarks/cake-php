@@ -14,4 +14,17 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 It's benchmark source code for CakePHP 3.5.
 
-For now, no benchmarks are available, as we are installing it.
+You will not find final source code here, as it's in [phpbenchmarks/cake-php](https://github.com/phpbenchmarks/cake-php) dependency.
+
+You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
+
+Each benchmark type have their own branch :
+[Hello World](https://github.com/phpbenchmarks/cake-php-3-5/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/cake-php-3-5/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/cake-php-3-5/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/cake-php-3-5/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/cake-php-3-5/tree/bigoverload).
+
+[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/cake-php-3.5.html)
+
+Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !

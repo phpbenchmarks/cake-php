@@ -188,3 +188,5 @@ Type::build('timestamp')
  * Plugin::load('Migrations'); //Loads a single plugin named Migrations
  *
  */
+
+require(__DIR__ . '/../vendor/phpbenchmarks/cake-php/Config/randomize_locale.event_listener.php');
