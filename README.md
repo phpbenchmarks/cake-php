@@ -6,25 +6,22 @@
 
 ## What is www.phpbenchmarks.com ?
 
-You will find lot of benchmarks for PHP frameworks, ORM and libs here.
+You will find lot of benchmarks for PHP frameworks and template engines.
 
-You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versions of your favorites PHP code.
+You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
 
 ## What is this repository ?
 
-It's benchmark source code for CakePHP 3.5.
+It's benchmark common code for CakePHP benchmarks.
 
-You will not find final source code here, as it's in [phpbenchmarks/cake-php](https://github.com/phpbenchmarks/cake-php) dependency.
+Switch branch to select your CakePHP major version and benchmark you want to see.
 
-You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
+See all CakePHP benchmarked versions on [phpbenchmarks/cake-php](https://github.com/phpbenchmarks/cake-php).
 
-Each benchmark type have their own branch :
-[Hello World](https://github.com/phpbenchmarks/cake-php-3-5/tree/helloworld),
-[Blog](https://github.com/phpbenchmarks/cake-php-3-5/tree/blog),
-[REST Api](https://github.com/phpbenchmarks/cake-php-3-5/tree/restapi),
-[Small overload](https://github.com/phpbenchmarks/cake-php-3-5/tree/smalloverload)
-and [Big overload](https://github.com/phpbenchmarks/cake-php-3-5/tree/bigoverload).
+You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
 
-[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/cake-php-3.5.html)
+## Benchmarks
+
+You can find all CakePHP benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/cake-php.html).
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
