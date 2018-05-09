@@ -215,3 +215,5 @@ Type::build('timestamp')
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+
+require(__DIR__ . '/../vendor/phpbenchmarks/cake-php-common/Config/randomize_locale.event_listener.php');
