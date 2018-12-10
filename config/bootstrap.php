@@ -201,3 +201,5 @@ Type::build('timestamp')
 //Inflector::rules('irregular', ['red' => 'redlings']);
 //Inflector::rules('uninflected', ['dontinflectme']);
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
+
+require(__DIR__ . '/../vendor/phpbenchmarks/cake-php-common/Config/randomize_locale.event_listener.php');
