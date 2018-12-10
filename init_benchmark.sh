@@ -10,9 +10,9 @@ function clearCache() {
 
 function init() {
     local pwd=$(pwd)
-    local langEn="$pwd/vendor/phpbenchmarks/cake-php/Locale/en/phpbenchmarks.po"
-    local langEnGb="$pwd/vendor/phpbenchmarks/cake-php/Locale/en_GB/phpbenchmarks.po"
-    local langFrFr="$pwd/vendor/phpbenchmarks/cake-php/Locale/fr_FR/phpbenchmarks.po"
+    local langEn="$pwd/vendor/phpbenchmarks/cake-php-common/Locale/en/phpbenchmarks.po"
+    local langEnGb="$pwd/vendor/phpbenchmarks/cake-php-common/Locale/en_GB/phpbenchmarks.po"
+    local langFrFr="$pwd/vendor/phpbenchmarks/cake-php-common/Locale/fr_FR/phpbenchmarks.po"
 
     if [ -L "$pwd/src/Locale/en/phpbenchmarks.po" ]; then
         rm "$pwd/src/Locale/en/phpbenchmarks.po"

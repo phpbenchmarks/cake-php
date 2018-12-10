@@ -189,4 +189,4 @@ Type::build('timestamp')
  *
  */
 
-require(__DIR__ . '/../vendor/phpbenchmarks/cake-php/Config/randomize_locale.event_listener.php');
+require(__DIR__ . '/../vendor/phpbenchmarks/cake-php-common/Config/randomize_locale.event_listener.php');
