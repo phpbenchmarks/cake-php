@@ -25,7 +25,7 @@ use Cake\Routing\Route\DashedRoute;
 
 Router::defaultRouteClass(DashedRoute::class);
 
-Router::scope('/', function (RouteBuilder $routes) {
+Router::scope('/benchmark', function (RouteBuilder $routes) {
     $routes->connect('/helloworld', ['controller' => 'HelloWorld', 'action' => 'helloWorld']);
 });
 

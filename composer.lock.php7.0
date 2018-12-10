@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b8a84d9a5a3e2e81dcc2c96a83b7cfa",
+    "content-hash": "a90893db2ce09f4b7b7d858f1526f4b6",
     "packages": [
         {
             "name": "aura/intl",
@@ -400,51 +400,21 @@
             "time": "2018-06-19T18:55:08+00:00"
         },
         {
-            "name": "phpbenchmarks/benchmark-rest-data",
-            "version": "1.0.0",
+            "name": "phpbenchmarks/cake-php-common",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpbenchmarks/benchmark-rest-data.git",
-                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690"
+                "url": "https://github.com/phpbenchmarks/cake-php-common.git",
+                "reference": "23438073758ef0c203d858fdd5e9d1e81426f3eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-rest-data/zipball/f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
-                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
+                "url": "https://api.github.com/repos/phpbenchmarks/cake-php-common/zipball/23438073758ef0c203d858fdd5e9d1e81426f3eb",
+                "reference": "23438073758ef0c203d858fdd5e9d1e81426f3eb",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "PhpBenchmarksRestData\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "time": "2017-10-24T01:42:51+00:00"
-        },
-        {
-            "name": "phpbenchmarks/cake-php-common",
-            "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpbenchmarks/cake-php-common.git",
-                "reference": "9feb65cdde2d34aca6c8ad656f5f18c0a0e88827"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/cake-php-common/zipball/9feb65cdde2d34aca6c8ad656f5f18c0a0e88827",
-                "reference": "9feb65cdde2d34aca6c8ad656f5f18c0a0e88827",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "phpbenchmarks/benchmark-rest-data": "1.0.0"
             },
             "type": "project",
             "autoload": {
@@ -456,7 +426,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2018-04-27T12:54:40+00:00"
+            "time": "2018-05-09T15:36:28+00:00"
         },
         {
             "name": "psr/http-message",
