@@ -30,7 +30,6 @@ function init() {
     ln -s "$langFrFr" src/Locale/fr_FR
 
     clearCache
-    cp config/app.default.php config/app.php
     composer install --no-dev --classmap-authoritative
     clearCache
 
