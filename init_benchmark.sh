@@ -10,7 +10,6 @@ function clearCache() {
 
 function init() {
     clearCache
-    cp config/app.default.php config/app.php
     composer install --no-dev --classmap-authoritative
     clearCache
 
